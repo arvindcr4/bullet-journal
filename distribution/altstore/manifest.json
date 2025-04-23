@@ -7,23 +7,23 @@
       "version": "1.0.0",
       "versionDate": "2025-04-23",
       "versionDescription": "Digital bullet journal with enhanced support for iPad and Apple Pencil.",
-      "downloadURL": "./ipa/BulletJournal_altstore.ipa",
+      "downloadURL": "https://arvindcr4.github.io/bullet-journal/distribution/altstore/ipa/BulletJournal_altstore.ipa",
       "size": 380677,
       "icons": [
         {
           "size": "60x60",
-          "url": "./icons/icon-60x60.png"
+          "url": "https://arvindcr4.github.io/bullet-journal/distribution/altstore/icons/icon-60x60.png"
         },
         {
           "size": "1024x1024",
-          "url": "./icons/icon-1024x1024.png"
+          "url": "https://arvindcr4.github.io/bullet-journal/distribution/altstore/icons/icon-1024x1024.png"
         }
       ],
       "tintColor": "#f5f5f5",
       "screenshotURLs": [
-        "./screenshots/ipad-1.png",
-        "./screenshots/ipad-2.png",
-        "./screenshots/ipad-3.png"
+        "https://arvindcr4.github.io/bullet-journal/distribution/altstore/screenshots/ipad-1.png",
+        "https://arvindcr4.github.io/bullet-journal/distribution/altstore/screenshots/ipad-2.png",
+        "https://arvindcr4.github.io/bullet-journal/distribution/altstore/screenshots/ipad-3.png"
       ],
       "permissions": [
         {
@@ -50,9 +50,9 @@
       "caption": "Download the new BulletJournal app for iPad",
       "date": "2025-04-23",
       "tintColor": "#f5f5f5",
-      "imageURL": "./news/launch.png",
+      "imageURL": "https://arvindcr4.github.io/bullet-journal/distribution/altstore/news/launch.png",
       "notify": true,
-      "url": "./news/bulletjournal-launch.html"
+      "url": "https://arvindcr4.github.io/bullet-journal/distribution/altstore/news/bulletjournal-launch.html"
     }
   ]
 }
