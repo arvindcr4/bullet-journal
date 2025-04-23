@@ -1,0 +1,27 @@
+{
+  "appId": "io.yarvind.bulletjournal.setapp",
+  "appName": "BulletJournal for Setapp",
+  "webDir": "www",
+  "version": "1.0.0",
+  "build": 1,
+  "ios": {
+    "contentInset": "always",
+    "backgroundColor": "#f5f5f5",
+    "preferredContentMode": "mobile",
+    "scheme": "bulletjournal-setapp",
+    "appendUserAgent": "BulletJournal iOS App (Setapp)"
+  },
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "backgroundColor": "#f5f5f5",
+      "splashFullScreen": true,
+      "splashImmersive": true
+    }
+  }
+}
+

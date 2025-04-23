@@ -1,0 +1,59 @@
+{
+  "apps": [
+    {
+      "name": "BulletJournal",
+      "bundleIdentifier": "io.yarvind.bulletjournal.alt",
+      "developerName": "Arvind CR",
+      "version": "1.0.0",
+      "versionDate": "2025-04-23",
+      "versionDescription": "Digital bullet journal with enhanced support for iPad and Apple Pencil.",
+      "downloadURL": "./ipa/BulletJournal_altstore.ipa",
+      "size": 380677,
+      "icons": [
+        {
+          "size": "60x60",
+          "url": "./icons/icon-60x60.png"
+        },
+        {
+          "size": "1024x1024",
+          "url": "./icons/icon-1024x1024.png"
+        }
+      ],
+      "tintColor": "#f5f5f5",
+      "screenshotURLs": [
+        "./screenshots/ipad-1.png",
+        "./screenshots/ipad-2.png",
+        "./screenshots/ipad-3.png"
+      ],
+      "permissions": [
+        {
+          "type": "photos",
+          "usageDescription": "Stores your journal images in your Photo Library"
+        },
+        {
+          "type": "location",
+          "usageDescription": "Allows tagging journal entries with your location (optional)"
+        }
+      ],
+      "appCategories": [
+        "productivity",
+        "creativity"
+      ],
+      "subtitle": "Your digital bullet journal for iPad",
+      "localizedDescription": "A digital bullet journal web application with enhanced support for iPad and Apple Pencil. Features responsive design, pressure sensitivity, offline functionality, and a distraction-free writing mode."
+    }
+  ],
+  "news": [
+    {
+      "title": "BulletJournal Now Available",
+      "identifier": "bulletjournal-launch",
+      "caption": "Download the new BulletJournal app for iPad",
+      "date": "2025-04-23",
+      "tintColor": "#f5f5f5",
+      "imageURL": "./news/launch.png",
+      "notify": true,
+      "url": "./news/bulletjournal-launch.html"
+    }
+  ]
+}
+

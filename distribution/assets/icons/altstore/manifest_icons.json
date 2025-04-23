@@ -1,0 +1,10 @@
+"icons": [
+  {
+    "size": "60x60",
+    "url": "https://your-hosting.com/apps/icon-60x60.png"
+  },
+  {
+    "size": "1024x1024",
+    "url": "https://your-hosting.com/apps/icon-1024x1024.png"
+  }
+]
