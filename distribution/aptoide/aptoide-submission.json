@@ -1,0 +1,100 @@
+{
+  "app": {
+    "name": "BulletJournal",
+    "package_name": "io.yarvind.bulletjournal.apt",
+    "version_name": "1.0.0",
+    "version_code": 1,
+    "min_sdk": 14,
+    "target_sdk": 33,
+    "category": "productivity",
+    "price": "free",
+    "age_rating": "Everyone"
+  },
+  "developer": {
+    "name": "Arvind CR",
+    "website": "https://arvindcr4.github.io/bullet-journal/",
+    "email": "arvindcr4@gmail.com",
+    "phone": "+1234567890"
+  },
+  "distribution": {
+    "ipa_url": "https://arvindcr4.github.io/bullet-journal/distribution/altstore/ipa/BulletJournal_altstore.ipa",
+    "certificate_fingerprint": "23:09:10:4E:1D:DD:FA:64:A6:93:D5:E7:AD:A2:50:96:99:44:E7:0E",
+    "distribution_type": "ad_hoc"
+  },
+  "metadata": {
+    "title": "BulletJournal - Digital Journal for iPad",
+    "short_description": "Your digital bullet journal for iPad with Apple Pencil support.",
+    "full_description": "BulletJournal is a digital bullet journal web application specifically designed for iPad and Apple Pencil users. It provides a natural journaling experience with handwriting support, offline functionality, and a distraction-free writing mode.\n\nBulletJournal brings the flexibility of traditional bullet journaling to your iPad with modern digital features. Stay organized, track your tasks, and journal your thoughts with our intuitive and flexible interface.",
+    "whats_new": "Initial release with full iPad and Apple Pencil support.",
+    "keywords": [
+      "bullet journal",
+      "productivity",
+      "journal",
+      "note taking",
+      "apple pencil",
+      "ipad",
+      "organization",
+      "handwriting",
+      "planner"
+    ],
+    "features": [
+      "Responsive design optimized for iPad screens",
+      "Apple Pencil support with pressure sensitivity",
+      "Offline functionality with service worker",
+      "Installable as a Progressive Web App (PWA)",
+      "Handwriting mode for a more natural journaling experience",
+      "Fullscreen writing mode for distraction-free journaling",
+      "Local storage for saving journal entries"
+    ],
+    "privacy_policy_url": "https://arvindcr4.github.io/bullet-journal/distribution/aptoide/privacy-policy.html",
+    "support_url": "https://arvindcr4.github.io/bullet-journal/distribution/aptoide/support.html"
+  },
+  "assets": {
+    "icon": "https://arvindcr4.github.io/bullet-journal/distribution/assets/icons/aptoide/icon-1024x1024.png",
+    "feature_graphic": "https://arvindcr4.github.io/bullet-journal/distribution/altstore/news/launch.png",
+    "screenshots": [
+      {
+        "type": "ipad",
+        "url": "https://arvindcr4.github.io/bullet-journal/distribution/altstore/screenshots/ipad-1.png"
+      },
+      {
+        "type": "ipad",
+        "url": "https://arvindcr4.github.io/bullet-journal/distribution/altstore/screenshots/ipad-2.png"
+      },
+      {
+        "type": "ipad",
+        "url": "https://arvindcr4.github.io/bullet-journal/distribution/altstore/screenshots/ipad-3.png"
+      }
+    ],
+    "icons": {
+      "ldpi": "https://arvindcr4.github.io/bullet-journal/distribution/assets/icons/aptoide/icon-36x36.png",
+      "mdpi": "https://arvindcr4.github.io/bullet-journal/distribution/assets/icons/aptoide/icon-48x48.png",
+      "hdpi": "https://arvindcr4.github.io/bullet-journal/distribution/assets/icons/aptoide/icon-72x72.png",
+      "xhdpi": "https://arvindcr4.github.io/bullet-journal/distribution/assets/icons/aptoide/icon-96x96.png",
+      "xxhdpi": "https://arvindcr4.github.io/bullet-journal/distribution/assets/icons/aptoide/icon-144x144.png",
+      "xxxhdpi": "https://arvindcr4.github.io/bullet-journal/distribution/assets/icons/aptoide/icon-192x192.png"
+    }
+  },
+  "permissions": [
+    {
+      "name": "NSPhotoLibraryUsageDescription",
+      "description": "Stores your journal images in your Photo Library"
+    },
+    {
+      "name": "NSLocationWhenInUseUsageDescription",
+      "description": "Allows tagging journal entries with your location (optional)"
+    }
+  ],
+  "submission_notes": "This is a digital bullet journal app designed specifically for iPad and Apple Pencil. It's built with web technologies and packaged as an iOS app. The app works offline and allows users to create journal entries, task lists, and notes with Apple Pencil support.",
+  "technical_details": {
+    "frameworks": [
+      "Capacitor",
+      "HTML5",
+      "CSS3",
+      "JavaScript"
+    ],
+    "file_size": 380677,
+    "architecture": "universal"
+  }
+}
+
