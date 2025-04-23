@@ -1,0 +1,38 @@
+{
+  "name": "bullet-journal",
+  "version": "1.0.0",
+  "description": "A digital bullet journal with Apple Pencil support for iPad",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve",
+    "build": "echo 'No build step required for this project'",
+    "ios:init": "npx cap init BulletJournal io.yourcompany.bulletjournal",
+    "ios:add": "npx cap add ios",
+    "ios:sync": "npx cap copy ios && npx cap sync ios",
+    "ios:open": "npx cap open ios"
+  },
+  "keywords": [
+    "bullet-journal",
+    "journal",
+    "productivity",
+    "ipad",
+    "apple-pencil",
+    "pwa"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor-community/apple-sign-in": "^5.0.0",
+    "@capacitor/core": "^5.0.0",
+    "@capacitor/ios": "^5.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.0.0",
+    "serve": "^14.0.0"
+  },
+  "capacitor": {
+    "ios": {
+      "contentInset": "always"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Capacitor
+# We want to keep iOS for this project
+android/
+
+# iOS specific
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+*.xcworkspace/
+xcuserdata/
+*.dSYM.zip
+*.dSYM
+.DS_Store
+Pods/
+build/
+DerivedData/
+# Distribution
+dist/
+# Keep www directory for web assets
+# www/
+www/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# API keys and secrets
+**/credentials.json
+**/api-keys.json
+*.pem
+*.p12
+*.key
+
+# Logs
+logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Generated files for iOS build
+ios/App/App/public/
+ios/App/Pods/
+ios/Pods/
+ios/DerivedData/
+ios/build/
+*.ipa
+*.xcarchive
