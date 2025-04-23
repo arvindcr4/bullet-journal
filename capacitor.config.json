@@ -1,18 +1,28 @@
 {
-  "appId": "io.yarvind.bulletjournal",
+  "appId": "io.yourcompany.bulletjournal",
   "appName": "BulletJournal",
   "webDir": "www",
-  "bundledWebRuntime": false,
+  "version": "1.0.0",
+  "build": 1,
   "ios": {
     "contentInset": "always",
     "backgroundColor": "#f5f5f5",
-    "preferredContentMode": "mobile",
-    "scheme": "bulletjournal",
-    "appendUserAgent": "BulletJournal iOS App"
+    "preferredContentMode": "tablet",
+    "scheme": "bulletjournal-alt",
+    "appendUserAgent": "BulletJournal iOS App (AltStore)",
+    "allowsLinkPreview": true,
+    "usesEphemeralWebViewSession": false,
+    "handleApplicationNotifications": true,
+    "overrideUserInterfaceStyle": "light",
+    "iPad": {
+      "splitView": true,
+      "keyboardAssist": true,
+      "targetCanvasWidth": 1024,
+      "targetCanvasHeight": 768
+    }
   },
   "server": {
     "androidScheme": "https"
-  },
   "plugins": {
     "SplashScreen": {
       "launchShowDuration": 2000,
@@ -20,6 +30,10 @@
       "backgroundColor": "#f5f5f5",
       "splashFullScreen": true,
       "splashImmersive": true
+    },
+    "ApplePencil": {
+      "enabled": true
+    }
     }
   }
 }
