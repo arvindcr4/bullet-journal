@@ -1,0 +1,34 @@
+{
+  "apps": [
+    {
+      "name": "BulletJournal",
+      "bundleIdentifier": "io.yarvind.bulletjournal.alt",
+      "developerName": "Arvind CR",
+      "subtitle": "Digital bullet journaling optimized for iPad",
+      "version": "1.0.0",
+      "versionDescription": "Digital bullet journal with enhanced Apple Pencil support featuring pressure sensitivity, tilt recognition, palm rejection, and multiple drawing tools.",
+      "downloadURL": "https://arvindcr4.github.io/bullet-journal/distribution/altstore/ipa/BulletJournal_altstore.ipa",
+      "size": 387026,
+      "localizedDescription": "A digital bullet journal web application optimized for iPad and Apple Pencil. Features comprehensive Apple Pencil support with pressure sensitivity, tilt recognition for natural shading, palm rejection for comfortable writing, and multiple drawing tools including pen, marker, highlighter, and eraser.",
+      "iconURL": "https://arvindcr4.github.io/bullet-journal/distribution/altstore/icons/icon-1024x1024.png",
+      "tintColor": "#63A19F",
+      "screenshotURLs": [
+        "https://arvindcr4.github.io/bullet-journal/distribution/altstore/screenshots/ipad-1.png",
+        "https://arvindcr4.github.io/bullet-journal/distribution/altstore/screenshots/ipad-2.png",
+        "https://arvindcr4.github.io/bullet-journal/distribution/altstore/screenshots/ipad-3.png"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "title": "BulletJournal Now Available with Apple Pencil Support",
+      "identifier": "bulletjournal-apple-pencil",
+      "caption": "Enhanced iPad experience with pressure sensitivity and palm rejection",
+      "date": "2025-04-23",
+      "tintColor": "#63A19F",
+      "imageURL": "https://arvindcr4.github.io/bullet-journal/distribution/altstore/news/launch.png",
+      "notify": true,
+      "url": "https://arvindcr4.github.io/bullet-journal/distribution/altstore/news/bulletjournal-launch.html"
+    }
+  ]
+}
